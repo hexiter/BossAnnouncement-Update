@@ -26,8 +26,7 @@ class Loader extends PluginBase implements Listener
     public $title = '', $subTitles = [], $changeSpeed = 0, $i = 0;
     public static $instance;
 
-    public function onLoad()
-    {
+    public function onLoad() {
         self::$instance = $this;
     }
 
